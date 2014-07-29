@@ -37,7 +37,7 @@ app.post('/api/regist', function(req, res){
 					url.replace('https://', '');
 					if( redis.set(REDIS_PREFIX+idx, url) && redis.set(REDIS_PREFIX+url, idx)){
 						return_data.result = true;
-						return_data.en = base62.encode( redis.get(url) );
+						return_data.en = base62.encode( idx );
 					}
 
 					res.json(return_data);
