@@ -1,0 +1,29 @@
+{
+  "name": "fshorten",
+  "version": "1.0.0",
+  "description": "shorten url",
+  "main": "app.js",
+  "dependencies": {
+    "base62": "~0.1.2",
+    "body-parser": "~1.5.0",
+    "express": "~4.6.1",
+    "hiredis": "~0.1.17",
+    "http": "~0.0.0",
+    "path": "~0.4.9",
+    "redis": "~0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leesk0502/shortenurl.git"
+  },
+  "author": "leesk0502",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/leesk0502/shortenurl/issues"
+  },
+  "homepage": "https://github.com/leesk0502/shortenurl"
+}

@@ -1,0 +1,5 @@
+{
+	"redis" : {
+		"password" : "YOUR_REDIS_AUTH_PASSWORD"
+	}
+}
